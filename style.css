@@ -1,0 +1,174 @@
+@font-face {
+    font-family: head;
+    src: url('./font/V8mDoQDjQSkFtoMM3T6r8E7mPbF4Cw.ttf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+  
+    color: whitesmoke;
+}
+
+@media (max-width: 991.98px) {
+    /* Custom styles for smaller screens */
+    .navbar-nav .nav-item .nav-link {
+      text-align: center;
+    }
+    .navbar-nav {
+      flex-direction: column;
+      align-items: start;
+    }
+  }
+.navbar{
+    background-color: #181825;
+    border-bottom: 0.2px solid #333333;
+}
+.links{
+    border-radius: 4px;
+    color: whitesmoke;
+    transition: all ease-in-out 0.2s;
+    font-family: head;
+    font-weight: 500;
+}
+.links:hover{
+    background-color: #333333;
+}
+/*  */
+.navbar-expand-lg .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+    justify-content: center;
+}
+.nav-link a{
+    padding: 0;
+}
+.nav-link i{
+    background-color: transparent;
+    border: 2px solid #333333;
+    padding: 8px 10px;
+    border-radius: 4px;
+    color: whitesmoke;
+    transition: all ease-in-out 0.2s;
+}
+.nav-link i:hover{
+    background-color: #333333;
+}
+.nav-item .profile{
+    background-color: transparent;
+    border: 2px solid #333333;
+    padding: 8px 10px;
+    border-radius: 4px;
+    color: whitesmoke;
+    transition: all ease-in-out 0.2s;
+}
+.profile:hover{
+    background-color: #333333;
+}
+.left{
+    width: 25vw;
+    min-height: 90vh;
+}
+.right{
+    width: 75vw;
+    min-height:90vh;
+    /* background-color: aliceblue; */
+    padding: 20px;
+}
+
+@media only screen and (max-width: 992px) {
+    .left {
+      width: 100%;
+    }
+    .right{
+        width: 100%;
+    }
+  } 
+.left ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0;
+}
+.left ul li{
+    height: fit-content;
+    width: 20vw;
+    padding: 10px 20px;
+    /* background-color: aliceblue; */
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all ease-out 0.15s;
+}
+.left ul li:hover{
+    background-color: black;
+}
+.left ul li:hover a{
+    color: whitesmoke;
+}
+.left ul li:hover i{
+    color: rgb(168, 199, 246);
+}
+.left ul li a{
+    color: black;
+    text-decoration: none;
+}
+.tag{
+    background-color: #4fdfff46;
+
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-family: head;
+    font-weight: 800;
+}
+.add{
+    background-color: #333333;
+    padding: 4px 10px;
+    text-decoration: none;
+    color: beige;
+    height: fit-content;
+}
+.add i{
+    background-color: transparent;
+    color: beige;
+}
+.feed{
+    height: 100%;
+    width: 50vw;
+    /* background-color: whitesmoke; */
+}
+.task{
+    height: 100%;
+    width: 22vw;
+    /* background-color: whitesmoke; */
+}
+.card{
+    overflow: hidden;
+    border: none;
+}
+.round{
+    height: 2.5vw;
+    width: 2.5vw;
+    border-radius: 50%;
+    /* background-color: green; */
+}
+.card-title{
+    font-family: head;
+    font-weight: 800;
+}
+* {
+    color: black;
+}
+
+
+.Profile_img{
+    height: 40px;
+    width: 50px;
+    margin-right: 5px;
+}
+.text-reset{
+    text-decoration: none;
+}
